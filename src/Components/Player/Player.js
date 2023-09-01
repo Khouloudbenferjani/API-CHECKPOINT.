@@ -5,10 +5,8 @@ import Card from 'react-bootstrap/Card';
 function Player ({name,team,nationality,jerseyNumber,age,image}) {
     return (
         <>
-          
-        
 
-    <Card style={{ width: '18rem' }}>
+     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>
@@ -23,11 +21,8 @@ function Player ({name,team,nationality,jerseyNumber,age,image}) {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
-
-        </>
-
         
-      
+        </>
     );
 }
 
